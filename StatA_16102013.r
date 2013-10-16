@@ -1,9 +1,5 @@
 load("C:/Users/bachelien/Desktop/NIPS2013.data")
-CorrelMat = eigen(cor(dataset))
-CorrelMat$values
-sum(CorrelMat$values)
 
-which(ProgVar >= 0.5*423)[1]
 
 ##################################################
 #PCA METHOD
